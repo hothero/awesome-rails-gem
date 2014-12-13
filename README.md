@@ -3,7 +3,12 @@
 Best practices for running Rails.
 
 ## User
-* [Devise](https://github.com/plataformatec/devise/) # Login
+[Devise](https://github.com/plataformatec/devise/) is a flexible authentication solution for Rails based on Warden. It:
+
+* Is Rack based;
+* Is a complete MVC solution based on Rails engines;
+* Allows you to have multiple models signed in at the same time;
+* Is based on a modularity concept: use only what you really need.
 
 ## Testing
 * [Capybara](https://github.com/jnicklas/capybara) #Capybara helps you test web applications by simulating how a real user would interact with your app. 
