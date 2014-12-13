@@ -1,6 +1,4 @@
-# Rails Gem List
-
-Best practices for running Rails.
+# For Development
 
 ## User
 [Devise](https://github.com/plataformatec/devise/) is a flexible authentication solution for Rails based on Warden. It:
@@ -11,8 +9,78 @@ Best practices for running Rails.
 * Is based on a modularity concept: use only what you really need.
 
 ## Testing
-* [Capybara](https://github.com/jnicklas/capybara) #Capybara helps you test web applications by simulating how a real user would interact with your app. 
+[Capybara](https://github.com/jnicklas/capybara) helps you test web applications by simulating how a real user would interact with your app. 
 
+[SimpleCov](https://github.com/colszowka/simplecov) is a code coverage analysis tool for Ruby
+
+## Coding Style
+[RuboCop](https://github.com/bbatsov/rubocop) is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
+
+## Debug
+[Better Errors](https://github.com/charliesome/better_errors) replaces the standard Rails error page with a much better and more useful error page.
+
+If you would like to use Better Errors' advanced features (REPL, local/instance variable inspection, pretty stack frame names), you need to add the [binding_ _of__caller](https://github.com/banister/binding_of_caller).
+
+## Excel
+The [Spreadsheet](https://github.com/zdavatz/spreadsheet) Library is designed to read and write Spreadsheet Documents.
+
+## Chart
+[Chartkick](https://github.com/ankane/chartkick) help your to create beautiful Javascript charts with one line of Ruby.
+
+## Integration with other services
+[Slack Notifier](https://github.com/stevenosloan/slack-notifier) is a simple wrapper to send notifications to [Slack](https://slack.com/) webhooks.
+
+## Environment Variables
+[Figaro](https://github.com/laserlemon/figaro) is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.
+
+## Routing
+[FriendlyId](https://github.com/norman/friendly_id) is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
+
+## Pagination
+A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4
+[https://github.com/amatsuda/kaminari/wiki](https://github.com/amatsuda/kaminari/wiki)
+
+## API
+[ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers) brings convention over configuration to your JSON generation.
+
+AMS does this through two components: serializers and adapters. Serializers describe which attributes and relationships should be serialized. Adapters describe how attributes and relationships should be serialized.
+
+## Editor
+The [redactor-rail](https://github.com/SammyLin/redactor-rails)s gem integrates the Redactor editor with the Rails 3.2 asset pipeline.
+
+## Uploader
+[Carrierwave](https://github.com/carrierwaveuploader/carrierwave) is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.
+
+[MiniMagick](https://github.com/minimagick/minimagick) is a ruby wrapper for ImageMagick or GraphicsMagick command line.
+
+[fog](https://github.com/fog/fog) is the Ruby cloud services library, top to bottom:
+
+* Collections provide a simplified interface, making clouds easier to work with and switch between.
+* Requests allow power users to get the most out of the features of each individual cloud.
+* Mocks make testing and integrating a breeze.
+
+## Record State Flow
+[AASM](https://github.com/aasm/aasm) - State machines for Ruby classes (plain Ruby, Rails Active Record, Mongoid)
+
+## View Helper
+[Simple Form](https://github.com/plataformatec/simple_form) aims to be as flexible as possible while helping you with powerful components to create your forms. The basic goal of Simple Form is to not touch your way of defining the layout, letting you find the better design for your eyes.
+
+## OAuth 
+[omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)
+
+[omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
+
+[omniauth-weibo-oauth2](https://github.com/beenhero/omniauth-weibo-oauth2)
+
+[omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
+
+## Backend
+The administration framework for Ruby on Rails applications. 
+[http://activeadmin.info](http://activeadmin.info)
+
+[active_skin](https://github.com/rstgroup/active_skin): Flat skin for active admin.
+
+# For Production
 ## Errors
 
 Use an error reporting service like [Rollbar](https://rollbar.com/).
@@ -39,10 +107,6 @@ gem 'slowpoke'
 
 Use [Rack Attack](https://github.com/kickstarter/rack-attack) to throttle and block requests.
 
-## Audits
-
-Use an auditing library like [Audited](https://github.com/collectiveidea/audited).
-
 ## Slow Requests
 
 Keep track of slow requests
@@ -63,6 +127,12 @@ ActiveSupport::Notifications.subscribe "unpermitted_parameters.action_controller
   # track here
 end
 ```
+
+## Audits & Version
+
+[PaperTrail](https://github.com/airblade/paper_trail) lets you track changes to your models' data. It's good for auditing or versioning.
+
+Soft delete: [paranoia](https://github.com/radar/paranoia)
 
 ## Failed Validations
 
@@ -129,6 +199,24 @@ def append_info_to_payload(payload)
   payload[:user_id] = current_user.id if current_user
   payload[:visit_id] = ahoy.visit_id # if you use Ahoy
 end
+```
+It attempt to bring sanity to Rails' noisy and unusable, unparsable and, in the context of running multiple processes and servers, unreadable default logging output
+
+Instead of having an unparsable amount of logging output like this:
+
+```
+Started GET "/" for 127.0.0.1 at 2012-03-10 14:28:14 +0100
+Processing by HomeController#index as HTML
+  Rendered text template within layouts/application (0.0ms)
+  Rendered layouts/_assets.html.erb (2.0ms)
+  Rendered layouts/_top.html.erb (2.6ms)
+  Rendered layouts/_about.html.erb (0.3ms)
+  Rendered layouts/_google_analytics.html.erb (0.4ms)
+Completed 200 OK in 79ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+```
+you get a single line with all the important information, like this:
+```
+method=GET path=/jobs/833552.json format=json controller=jobs action=show status=200 duration=58.33 view=40.43 db=15.26
 ```
 
 ## Uptime Monitoring
