@@ -16,6 +16,8 @@
 ## Coding Style
 [RuboCop](https://github.com/bbatsov/rubocop) is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
 
+[Rails Best Practice](https://github.com/railsbp/rails_best_practices) is a code metric tool to check the quality of rails codes.
+
 ## Debug
 [Better Errors](https://github.com/charliesome/better_errors) replaces the standard Rails error page with a much better and more useful error page.
 
@@ -324,12 +326,17 @@ Be sure to monitor:
 - jobs by type - total time, count
 - errors
 
-### Data Stores - Database, Elasticsearch, Redis
-
+## Data Stores - Database, Elasticsearch, Redis
 - requests by type - total time, count
 - errors
 - CPU usage
 - space
+
+### Redis
+[redis-rb](https://github.com/redis/redis-rb) is a Ruby client that tries to match Redis' API one-to-one, while still providing an idiomatic interface. It features thread-safety, client-side sharding, pipelining, and an obsession for performance.
+
+[redis-objects](https://github.com/nateware/redis-objects) provides a Rubyish interface to Redis, by mapping Redis data types to Ruby objects, via a thin layer over the redis gem. 
+
 
 ### External Services
 
