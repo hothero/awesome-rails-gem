@@ -21,6 +21,23 @@
 
 If you would like to use Better Errors' advanced features (REPL, local/instance variable inspection, pretty stack frame names), you need to add the [binding_ _of__caller](https://github.com/banister/binding_of_caller).
 
+## Currency Exchange Rate
+Gems for dealing with money, currency conversion and realtime exchange rate.
+
+```ruby
+gem "google_currency"
+gem "money"
+```
+
+```ruby
+require 'money'
+require 'money/bank/google_currency'
+
+Money.default_bank = Money::Bank::GoogleCurrency.new
+money = Money.new(1_00, "USD")
+exchange_rate = money.exchange_to(:twd).to_d
+```
+
 ## Excel
 The [Spreadsheet](https://github.com/zdavatz/spreadsheet) Library is designed to read and write Spreadsheet Documents.
 
@@ -41,12 +58,55 @@ A Scope & Engine based, clean, powerful, customizable and sophisticated paginato
 [https://github.com/amatsuda/kaminari/wiki](https://github.com/amatsuda/kaminari/wiki)
 
 ## API
-[ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers) brings convention over configuration to your JSON generation.
+[ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers) brings convention over configuration to your JSON generation. Here's a simple example:
 
-AMS does this through two components: serializers and adapters. Serializers describe which attributes and relationships should be serialized. Adapters describe how attributes and relationships should be serialized.
+```ruby
+class PostSerializer < ActiveModel::Serializer
+  cache key: 'posts', expires_in: 3.hours
+  attributes :title, :body
+
+  has_many :comments
+
+  url :post
+end
+
+class CommentSerializer < ActiveModel::Serializer
+  attributes :name, :body
+
+  belongs_to :post
+
+  url [:post, :comment]
+end
+```
+
+[Jbuilder](https://github.com/rails/jbuilder) gives you a simple DSL for declaring JSON structures that beats massaging giant hash structures. This is particularly helpful when the generation process is fraught with conditionals and loops. Here's a simple example:
+
+```ruby
+# app/views/message/show.json.jbuilder
+
+json.content format_content(@message.content)
+json.(@message, :created_at, :updated_at)
+
+json.author do
+  json.name @message.creator.name.familiar
+  json.email_address @message.creator.email_address_with_name
+  json.url url_for(@message.creator, format: :json)
+end
+
+if current_user.admin?
+  json.visitors calculate_visitors(@message)
+end
+
+json.comments @message.comments, :content, :created_at
+
+json.attachments @message.attachments do |attachment|
+  json.filename attachment.filename
+  json.url url_for(attachment)
+end
+```
 
 ## Editor
-The [redactor-rail](https://github.com/SammyLin/redactor-rails)s gem integrates the Redactor editor with the Rails 3.2 asset pipeline.
+[CKEditor](https://github.com/galetahub/ckeditor) is a WYSIWYG text editor designed to simplify web content creation. It brings common word processing features directly to your web pages. Enhance your website experience with our community maintained editor. [ckeditor.com](http://ckeditor.com)
 
 ## Uploader
 [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.
@@ -167,6 +227,9 @@ class ApplicationController < ActionController::Base
 end
 ```
 
+## Request/Visit Tracking
+[Ahoy](https://github.com/ankane/ahoy) provides a solid foundation to track visits and events in Ruby, JavaScript, and native apps.
+
 ## Logging
 
 Use [Lograge](https://github.com/roidrage/lograge).
@@ -265,6 +328,23 @@ Use a high performance web server like [Unicorn](http://unicorn.bogomips.org/).
 
 ```ruby
 gem 'unicorn'
+```
+
+One thing we thought Unicorn missed, is killing the Unicorn workers based on the number of requests and consumed memories.
+
+[unicorn-worker-killer](https://github.com/kzk/unicorn-worker-killer) gem provides automatic restart of Unicorn workers based on 1) max number of requests, and 2) process memory size (RSS), without affecting any requests.
+
+Add these lines to your `config.ru`.
+
+```ruby
+# Unicorn self-process killer
+require 'unicorn/worker_killer'
+
+# Max requests per worker
+use Unicorn::WorkerKiller::MaxRequests, 3072, 4096
+
+# Max memory size (RSS) per worker
+use Unicorn::WorkerKiller::Oom, (192*(1024**2)), (256*(1024**2))
 ```
 
 ## Security
