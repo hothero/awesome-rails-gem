@@ -122,6 +122,20 @@ end
 ## Record State Flow
 [AASM](https://github.com/aasm/aasm) - State machines for Ruby classes (plain Ruby, Rails Active Record, Mongoid)
 
+## Record Validation
+[Validates](https://github.com/kaize/validates) provides collection of useful custom validators for Rails applications, including:
+
+* EmailValidator
+* UrlValidator
+* SlugValidator
+* MoneyValidator
+* IpValidator
+* AssociationLengthValidator
+* AbsolutePathValidator
+* UriComponentValidator
+* ColorValidator
+* EanValidator (EAN-8 & EAN-13)
+
 ## View Helper
 [Simple Form](https://github.com/plataformatec/simple_form) aims to be as flexible as possible while helping you with powerful components to create your forms. The basic goal of Simple Form is to not touch your way of defining the layout, letting you find the better design for your eyes.
 
