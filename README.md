@@ -9,9 +9,19 @@
 * Is based on a modularity concept: use only what you really need.
 
 ## Testing
+[rspec-rails](https://github.com/rspec/rspec-rails) is a testing framework for Rails 3.x and 4.x.
+
 [Capybara](https://github.com/jnicklas/capybara) helps you test web applications by simulating how a real user would interact with your app. 
 
+[factory_girl](https://github.com/thoughtbot/factory_girl) is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
+
+[factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails) provides Rails integration for factory_girl.
+
 [Database Cleaner](https://github.com/DatabaseCleaner/database_cleaner) is a set of strategies for cleaning your database in Ruby.Support ActiveRecord, DataMapper, Sequel, MongoMapper, Mongoid, CouchPotato, Ohm and Redis.
+
+[shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers) provides serveral matchers for testing common Rails functionality.
+
+[ResponseCodeMatchers](https://github.com/r7kamura/response_code_matchers) provides rspec matchers to match http response code.
 
 [SimpleCov](https://github.com/colszowka/simplecov) is a code coverage analysis tool for Ruby
 
@@ -56,7 +66,7 @@ The [Spreadsheet](https://github.com/zdavatz/spreadsheet) Library is designed to
 
 [dotenv](https://github.com/bkeepers/dotenv) is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.
 
-  [opsworks-dotenv](https://github.com/mikamai/opsworks-dotenv) let you configure the environment for you Rails application using OpsWorks, Chef and Dotenv
+[opsworks-dotenv](https://github.com/mikamai/opsworks-dotenv) let you configure the environment for you Rails application using OpsWorks, Chef and Dotenv
 
 ## Routing
 [FriendlyId](https://github.com/norman/friendly_id) is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
