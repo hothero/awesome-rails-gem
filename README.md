@@ -8,8 +8,50 @@
 * Allows you to have multiple models signed in at the same time;
 * Is based on a modularity concept: use only what you really need.
 
+## Authorization
+[Pundit](https://github.com/elabs/pundit) provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.
+
+## Template
+[slim-rails](https://github.com/slim-template/slim-rails) is a template language whose goal is to reduce the view syntax to the essential parts without becoming cryptic.
+
+## Search
+[ransack](https://github.com/activerecord-hackery/ransack) enables the creation of both simple and advanced search forms for your Ruby on Rails application
+
+[elasticsearch-rails](https://github.com/elasticsearch/elasticsearch-rails). Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.
+
+[Chewy](https://github.com/toptal/chewy). High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client.
+
+[Chewy_Kiqqer](https://github.com/averell23/chewy_kiqqer). This is an alternative udpate/callback mechanism for Chewy. It queues the updates as Sidekiq jobs.
+
+## Tagging
+[ActsAsTaggableOn](https://github.com/mbleigh/acts-as-taggable-on). A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts.
+
+## Sequential ID
+[Sequenced](https://github.com/djreimer/sequenced) is a simple gem that generates scoped sequential IDs for ActiveRecord models.
+
+## Enum
+[Enumerize](https://github.com/brainspec/enumerize) Enumerated attributes with I18n and ActiveRecord/Mongoid support. It can be integrated with Simple Form.
+
+## Counter Cache
+[counter_culture](https://github.com/magnusvk/counter_culture) Turbo-charged counter caches for your Rails app. Huge improvements over the Rails standard counter caches.
+
+## Response
+[Responders](https://github.com/plataformatec/responders). A set of Rails responders to dry up your application.
+
 ## Testing
+[rspec-rails](https://github.com/rspec/rspec-rails) is a testing framework for Rails 3.x and 4.x.
+
 [Capybara](https://github.com/jnicklas/capybara) helps you test web applications by simulating how a real user would interact with your app. 
+
+[factory_girl](https://github.com/thoughtbot/factory_girl) is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
+
+[factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails) provides Rails integration for factory_girl.
+
+[Database Cleaner](https://github.com/DatabaseCleaner/database_cleaner) is a set of strategies for cleaning your database in Ruby.Support ActiveRecord, DataMapper, Sequel, MongoMapper, Mongoid, CouchPotato, Ohm and Redis.
+
+[shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers) provides serveral matchers for testing common Rails functionality.
+
+[ResponseCodeMatchers](https://github.com/r7kamura/response_code_matchers) provides rspec matchers to match http response code.
 
 [SimpleCov](https://github.com/colszowka/simplecov) is a code coverage analysis tool for Ruby
 
@@ -22,6 +64,8 @@
 [Better Errors](https://github.com/charliesome/better_errors) replaces the standard Rails error page with a much better and more useful error page.
 
 If you would like to use Better Errors' advanced features (REPL, local/instance variable inspection, pretty stack frame names), you need to add the [binding_ _of__caller](https://github.com/banister/binding_of_caller).
+
+[RailsPanel](https://github.com/dejan/rails_panel) is a Chrome extension for Rails development that will end your tailing of development.log. 
 
 ## Currency Exchange Rate
 Gems for dealing with money, currency conversion and realtime exchange rate.
@@ -51,6 +95,10 @@ The [Spreadsheet](https://github.com/zdavatz/spreadsheet) Library is designed to
 
 ## Environment Variables
 [Figaro](https://github.com/laserlemon/figaro) is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.
+
+[dotenv](https://github.com/bkeepers/dotenv) is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.
+
+[opsworks-dotenv](https://github.com/mikamai/opsworks-dotenv) let you configure the environment for you Rails application using OpsWorks, Chef and Dotenv
 
 ## Routing
 [FriendlyId](https://github.com/norman/friendly_id) is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
@@ -140,6 +188,18 @@ end
 
 ## View Helper
 [Simple Form](https://github.com/plataformatec/simple_form) aims to be as flexible as possible while helping you with powerful components to create your forms. The basic goal of Simple Form is to not touch your way of defining the layout, letting you find the better design for your eyes.
+
+[Nested Form](https://github.com/ryanb/nested_form) This is a Rails gem for conveniently manage multiple nested models in a single form. It does so in an unobtrusive way through jQuery or Prototype. It can also be integrated with Simple Form.
+
+[meta-tags](https://github.com/kpumuk/meta-tags) Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
+
+[active_link_to](https://github.com/comfy/active_link_to) add css 'active' class to your links.
+
+## HTML processing
+[HTML::Pipeline](https://github.com/jch/html-pipeline). GitHub HTML processing filters and utilities. This module includes a small framework for defining DOM based content filters and applying them to user provided content.
+
+## Real-time
+[Sync](https://github.com/chrismccord/sync). Real-time partials with Rails. 
 
 ## OAuth 
 [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)
@@ -247,6 +307,8 @@ end
 [Ahoy](https://github.com/ankane/ahoy) provides a solid foundation to track visits and events in Ruby, JavaScript, and native apps.
 
 ## Logging
+[Impressionist](https://github.com/charlotte-ruby/impressionist) can log page impressions (technically action impressions), but it is not limited to that. You can log impressions multiple times per request. And you can also attach it to a model. The goal of this project is to provide customizable stats that are immediately accessible in your application as opposed to using Google Analytics and pulling data using their API. 
+
 
 Use [Lograge](https://github.com/roidrage/lograge).
 
@@ -399,6 +461,10 @@ every 3.hours do
   command "/usr/bin/my_great_command"
 end
 ```
+
+[Sidekiq](https://github.com/mperham/sidekiq). Simple, efficient background processing for Ruby.
+
+[Sucker Punch](https://github.com/brandonhilkert/sucker_punch) is a single-process Ruby asynchronous processing library.
 
 ## TODO
 
