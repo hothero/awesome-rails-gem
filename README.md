@@ -11,6 +11,8 @@
 ## Testing
 [Capybara](https://github.com/jnicklas/capybara) helps you test web applications by simulating how a real user would interact with your app. 
 
+[Database Cleaner](https://github.com/DatabaseCleaner/database_cleaner) is a set of strategies for cleaning your database in Ruby.Support ActiveRecord, DataMapper, Sequel, MongoMapper, Mongoid, CouchPotato, Ohm and Redis.
+
 [SimpleCov](https://github.com/colszowka/simplecov) is a code coverage analysis tool for Ruby
 
 ## Coding Style
@@ -51,6 +53,10 @@ The [Spreadsheet](https://github.com/zdavatz/spreadsheet) Library is designed to
 
 ## Environment Variables
 [Figaro](https://github.com/laserlemon/figaro) is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.
+
+[dotenv](https://github.com/bkeepers/dotenv) is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.
+
+  [opsworks-dotenv](https://github.com/mikamai/opsworks-dotenv) let you configure the environment for you Rails application using OpsWorks, Chef and Dotenv
 
 ## Routing
 [FriendlyId](https://github.com/norman/friendly_id) is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
