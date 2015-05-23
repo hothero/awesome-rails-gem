@@ -43,6 +43,10 @@
 
 [Capybara](https://github.com/jnicklas/capybara) helps you test web applications by simulating how a real user would interact with your app. 
 
+  drivers:
+  - [capybara-webkit](https://github.com/thoughtbot/capybara-webkit) is a capybara driver that uses Webkit via QtWebkit.
+  - [selenium-webdriver](https://github.com/vertis/selenium-webdriver) provides ruby bindings for WebDriver.
+
 [factory_girl](https://github.com/thoughtbot/factory_girl) is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
 
 [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails) provides Rails integration for factory_girl.
