@@ -214,11 +214,11 @@ end
 
 [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
 
-## Backend
-The administration framework for Ruby on Rails applications. 
-[http://activeadmin.info](http://activeadmin.info)
+## Admin Panel
+[ActiveAdmin](http://activeadmin.info) is a administration framework for Ruby on Rails applications. 
+- [active_skin](https://github.com/rstgroup/active_skin): Flat skin for active admin.
 
-[active_skin](https://github.com/rstgroup/active_skin): Flat skin for active admin.
+[RailsAdmin](https://github.com/sferik/rails_admin)is a Rails engine that provides an easy-to-use interface for managing your data.
 
 # For Production
 ## Errors
