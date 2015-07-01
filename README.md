@@ -46,6 +46,7 @@
   drivers:
   - [capybara-webkit](https://github.com/thoughtbot/capybara-webkit) is a capybara driver that uses Webkit via QtWebkit.
   - [selenium-webdriver](https://github.com/vertis/selenium-webdriver) provides ruby bindings for WebDriver.
+  - [poltergeist](https://github.com/teampoltergeist/poltergeist)allows you to run your Capybara tests on a headless WebKit browser, provided by PhantomJS.
 
 [factory_girl](https://github.com/thoughtbot/factory_girl) is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
 
