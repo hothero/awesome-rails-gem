@@ -34,7 +34,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [counter_culture](https://github.com/magnusvk/counter_culture) - Turbo-charged counter caches for your Rails app. Huge improvements over the Rails standard counter caches.
 * [Sequenced](https://github.com/djreimer/sequenced) - Sequenced is a simple gem that generates scoped sequential IDs for ActiveRecord models.
 * [FriendlyId](https://github.com/norman/friendly_id) - FriendlyId is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
-* [AASM](https://github.com/aasm/aasm) - State machines for Ruby classes (plain Ruby, Rails Active Record, Mongoid)
+* [AASM](https://github.com/aasm/aasm) - State machines for Ruby classes (plain Ruby, Rails Active Record, Mongoid).
 * [PaperTrail](https://github.com/airblade/paper_trail) - PaperTrail lets you track changes to your models' data. It's good for auditing or versioning.
 * [paranoia](https://github.com/radar/paranoia) - ActiveRecord plugin allowing you to hide and restore records without actually deleting them.
 * [Validates](https://github.com/kaize/validates) - Validates provides collection of useful custom validators for Rails applications, including:
@@ -51,7 +51,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [globalize](https://github.com/globalize/globalize) - Rails I18n de-facto standard library for ActiveRecord model/data translation.
 * [deep_cloneable](https://github.com/moiristo/deep_cloneable) - This gem gives every ActiveRecord::Base object the possibility to do a deep clone that includes user specified associations.
 * [social_shares](https://github.com/Timrael/social_shares) - Check how many times url was shared in social networks.
-* [public_activity](https://github.com/chaps-io/public_activity) - Easy activity tracking for models - similar to Github's Public Activity
+* [public_activity](https://github.com/chaps-io/public_activity) - Easy activity tracking for models - similar to Github's Public Activity.
 * Tagging
 	* [ActsAsTaggableOn](https://github.com/mbleigh/acts-as-taggable-on) - A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts.
 	* [closure_tree](https://github.com/mceachen/closure_tree) - Easily and efficiently make your ActiveRecord models support hierarchies.
@@ -70,8 +70,8 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 * [has_scope](https://github.com/plataformatec/has_scope) - Map incoming controller parameters to named scopes in your resources.
 * Documentation
-	* [apiary](https://apiary.io/) - Work together to quickly design, prototype, document and test APIs
-	* [apiblueprint](https://apiblueprint.org) - API Documentation with powerful tooling
+	* [apiary](https://apiary.io/) - Work together to quickly design, prototype, document and test APIs.
+	* [apiblueprint](https://apiblueprint.org) - API Documentation with powerful tooling.
 
 ## File Upload
 * [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) - Carrierwave is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.
@@ -82,7 +82,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [fog](https://github.com/fog/fog) - Fog is the Ruby cloud services library, top to bottom.
 
 ## Search
-* [ransack](https://github.com/activerecord-hackery/ransack) - Ransack enables the creation of both simple and advanced search forms for your Ruby on Rails application
+* [ransack](https://github.com/activerecord-hackery/ransack) - Ransack enables the creation of both simple and advanced search forms for your Ruby on Rails application.
 * [elasticsearch-rails](https://github.com/elasticsearch/elasticsearch-rails) - Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.
 * [Chewy](https://github.com/toptal/chewy) - High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client.
 * [Chewy_Kiqqer](https://github.com/averell23/chewy_kiqqer) - This is an alternative udpate/callback mechanism for Chewy. It queues the updates as Sidekiq jobs.
@@ -90,7 +90,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## Scheduled/Recurrence Jobs
 * [Whenever](https://github.com/javan/whenever) - Whenever is a Ruby gem that provides a clear syntax for writing and deploying cron jobs.
 * [Sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby.
-	* [sidetiq](https://github.com/tobiassvn/sidetiq) - Recurring jobs for sidekiq
+	* [sidetiq](https://github.com/tobiassvn/sidetiq) - Recurring jobs for sidekiq.
 * [Sucker Punch](https://github.com/brandonhilkert/sucker_punch) - Sucker punch is a single-process Ruby asynchronous processing library.
 
 ## View Helper
@@ -102,7 +102,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## Environment Variables
 * [Figaro](https://github.com/laserlemon/figaro) - Figaro is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.
 * [dotenv](https://github.com/bkeepers/dotenv) - Dotenv is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.
-* [opsworks-dotenv](https://github.com/mikamai/opsworks-dotenv) - Opsworks-dotenv let you configure the environment for you Rails application using OpsWorks, Chef and Dotenv
+* [opsworks-dotenv](https://github.com/mikamai/opsworks-dotenv) - Opsworks-dotenv let you configure the environment for you Rails application using OpsWorks, Chef and Dotenv.
 
 ## Admin Panel
 * [ActiveAdmin](http://activeadmin.info) - ActiveAdmin is a administration framework for Ruby on Rails applications. 
@@ -144,66 +144,15 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Database Cleaner](https://github.com/DatabaseCleaner/database_cleaner) - Database Cleaner is a set of strategies for cleaning your database in Ruby.Support ActiveRecord, DataMapper, Sequel, MongoMapper, Mongoid, CouchPotato, Ohm and Redis.
 * [shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers) - Shoulda-matchers provides serveral matchers for testing common Rails functionality.
 * [ResponseCodeMatchers](https://github.com/r7kamura/response_code_matchers) - ResponseCodeMatchers provides rspec matchers to match http response code.
-* [SimpleCov](https://github.com/colszowka/simplecov) - SimpleCov is a code coverage analysis tool for Ruby
+* [SimpleCov](https://github.com/colszowka/simplecov) - SimpleCov is a code coverage analysis tool for Ruby.
 
 ## Production
 * [Rollbar](https://github.com/rollbar/rollbar-gem) - Exception tracking and logging from Ruby to Rollbar.
 * [Slowpoke](https://github.com/ankane/slowpoke) - Rack::Timeout is great. Slowpoke makes it better.
 * [Rack Attack](https://github.com/kickstarter/rack-attack) - Rack middleware to blocking & throttling.
 * [Responders](https://github.com/plataformatec/responders) - A set of Rails responders to dry up your application.
+* [production_rails](https://github.com/ankane/production_rails) - Best practices for running Rails in production.
 
-### Uptime Monitoring
+## Contribute
 
-Use an uptime monitoring service like [Pingdom](https://www.pingdom.com/) or [Uptime Robot](https://uptimerobot.com/).
-
-Monitor web servers, background jobs, and scheduled tasks.
-
-### Performance Monitoring
-
-Use a performance monitoring service like [New Relic](http://newrelic.com/), [AppSignal](https://appsignal.com/) or [Skylight](https://www.skylight.io).
-
-Be sure to monitor:
-
-### Web Requests
-
-- requests by action - total time, count
-- errors - with affected users
-- queue time - `X-Request-Start` header
-- timeouts
-- 404s
-- invalid authenticity token
-- unpermitted parameters
-- invalid form submissions
-
-### Web Server
-
-Use a high performance web server like [Unicorn](http://unicorn.bogomips.org/).
-
-```ruby
-gem 'unicorn'
-```
-
-One thing we thought Unicorn missed, is killing the Unicorn workers based on the number of requests and consumed memories.
-
-[unicorn-worker-killer](https://github.com/kzk/unicorn-worker-killer) gem provides automatic restart of Unicorn workers based on 1) max number of requests, and 2) process memory size (RSS), without affecting any requests.
-
-Add these lines to your `config.ru`.
-
-```ruby
-# Unicorn self-process killer
-require 'unicorn/worker_killer'
-
-# Max requests per worker
-use Unicorn::WorkerKiller::MaxRequests, 3072, 4096
-
-# Max memory size (RSS) per worker
-use Unicorn::WorkerKiller::Oom, (192*(1024**2)), (256*(1024**2))
-```
-
-### Security
-
-Use SSL to protect your users. Add the following to `config/environments/production.rb`.
-
-```ruby
-config.force_ssl = true
-```
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
