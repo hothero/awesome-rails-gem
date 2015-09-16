@@ -1,5 +1,7 @@
-# Rails Gem List
-A collection of rails gem we ever used in practice.
+# Awesome Rails Gem [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+A collection of awesome Ruby Gems for Rails development.
+
+The goal is to help every Rails developer to build an awesome Rails product/service.
 
 * [Rails Gem List](#rails-gem-list)
   * [User](#user)
