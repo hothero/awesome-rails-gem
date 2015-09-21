@@ -8,8 +8,8 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [Active Record](#active-record)
   * [Plugins](#plugins)
   * [API](#api)
-  * [File Upload](#file-upload)
-  * [Search](#search)
+  * [File Uploading](#file-uploading)
+  * [Searching](#searching)
   * [Scheduled/Recurrence Jobs](#scheduledrecurrence-jobs)
   * [View Helper](#view-helper)
   * [Environment Variables](#environment-variables)
@@ -66,6 +66,8 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [CKEditor](https://github.com/galetahub/ckeditor) - CKEditor is a WYSIWYG text editor designed to simplify web content creation. It brings common word processing features directly to your web pages. Enhance your website experience with our community maintained editor. [ckeditor.com](http://ckeditor.com)
 * [HTML::Pipeline](https://github.com/jch/html-pipeline) - GitHub HTML processing filters and utilities. This module includes a small framework for defining DOM based content filters and applying them to user provided content.
 * [Slack Notifier](https://github.com/stevenosloan/slack-notifier) is a simple wrapper to send notifications to [Slack](https://slack.com/) webhooks.
+* [Rails ERD](https://github.com/voormedia/rails-erd) Generate Entity-Relationship Diagrams for Rails applications.
+* [Parity](https://github.com/thoughtbot/parity) Shell commands for development, staging, and production parity for Heroku apps.
 
 ## API
 * [ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers) - Serializer brings convention over configuration to your JSON generation.
@@ -76,7 +78,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 	* [apiary](https://apiary.io/) - Work together to quickly design, prototype, document and test APIs.
 	* [apiblueprint](https://apiblueprint.org) - API Documentation with powerful tooling.
 
-## File Upload
+## File Uploading
 * [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) - Carrierwave is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.
   * [carrierwave_backgrounder](https://github.com/lardawge/carrierwave_backgrounder) - Offload CarrierWave's image processing and storage to a background process using Delayed Job, Resque, Sidekiq, Qu, Queue Classic or Girl Friday.
   * [CarrierWave Crop](https://github.com/kirtithorat/carrierwave-crop/) - Carrierwave extension to crop uploaded images using Jcrop plugin with preview.
@@ -85,7 +87,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [fog](https://github.com/fog/fog) - Fog is the Ruby cloud services library, top to bottom.
 * [refile](https://github.com/refile/refile) - Refile is a modern file upload library for Ruby applications. It is simple, yet powerful.
 
-## Search
+## Searching
 * [ransack](https://github.com/activerecord-hackery/ransack) - Ransack enables the creation of both simple and advanced search forms for your Ruby on Rails application.
 * [elasticsearch-rails](https://github.com/elasticsearch/elasticsearch-rails) - Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.
 * [Chewy](https://github.com/toptal/chewy) - High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client.
