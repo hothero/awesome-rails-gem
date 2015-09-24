@@ -28,6 +28,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 	* [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
 	* [omniauth-weibo-oauth2](https://github.com/beenhero/omniauth-weibo-oauth2)
 	* [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
+	* [omniauth-github](https://github.com/intridea/omniauth-github)
 * [cancancan](https://github.com/CanCanCommunity/cancancan) - Continuation of CanCan, the authorization Gem for Ruby on Rails.CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the Ability class) and not duplicated across controllers, views, and database queries.
 * [rolify](https://github.com/RolifyCommunity/rolify) - Role management library with resource scoping.
 
