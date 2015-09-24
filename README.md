@@ -8,6 +8,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [Active Record](#active-record)
   * [Plugins](#plugins)
   * [API](#api)
+  * [Email](#email)
   * [File Uploading](#file-uploading)
   * [Searching](#searching)
   * [Scheduled/Recurrence Jobs](#scheduledrecurrence-jobs)
@@ -77,6 +78,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * Documentation
   * [apiary](https://apiary.io/) - Work together to quickly design, prototype, document and test APIs.
   * [apiblueprint](https://apiblueprint.org) - API Documentation with powerful tooling.
+
+## Email
+* [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
 
 ## File Uploading
 * [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) - Carrierwave is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.
