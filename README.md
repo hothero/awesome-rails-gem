@@ -74,6 +74,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Jbuilder](https://github.com/rails/jbuilder) - Jbuilder gives you a simple DSL for declaring JSON structures that beats massaging giant hash structures. This is particularly helpful when the generation process is fraught with conditionals and loops.
 * [rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 * [has_scope](https://github.com/plataformatec/has_scope) - Map incoming controller parameters to named scopes in your resources.
+* [hyperclient](https://github.com/codegram/hyperclient) - Hyperclient is a Hypermedia API client written in Ruby. It fully supports [JSON HAL](http://stateless.co/hal_specification.html).
 * Documentation
 	* [apiary](https://apiary.io/) - Work together to quickly design, prototype, document and test APIs.
 	* [apiblueprint](https://apiblueprint.org) - API Documentation with powerful tooling.
