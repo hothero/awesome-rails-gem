@@ -22,6 +22,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## User
 * [Devise](https://github.com/plataformatec/devise/) - Devise is a flexible authentication solution for Rails based on Warden. It:
+* [Knock](https://github.com/nsarno/knock) - Seamless JWT authentication for Rails API.
 * [Pundit](https://github.com/elabs/pundit) - Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.
 * OmniAuth
 	* [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)
