@@ -19,17 +19,23 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [Coding Style](#coding-style)
   * [Testing](#testing)
   * [Production](#production)
+  * [Error Logging](#error-logging)
 
 ## User
-* [Devise](https://github.com/plataformatec/devise/) - Devise is a flexible authentication solution for Rails based on Warden. It:
+### Authentication
+* [Devise](https://github.com/plataformatec/devise/) - Devise is a flexible authentication solution for Rails based on Warden.
+
+### Authorization
 * [Pundit](https://github.com/elabs/pundit) - Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.
+* [cancancan](https://github.com/CanCanCommunity/cancancan) - Continuation of CanCan, the authorization Gem for Ruby on Rails.CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the Ability class) and not duplicated across controllers, views, and database queries.
+* [rolify](https://github.com/RolifyCommunity/rolify) - Role management library with resource scoping.
+
+### Omniauth
 * OmniAuth
 	* [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)
 	* [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
 	* [omniauth-weibo-oauth2](https://github.com/beenhero/omniauth-weibo-oauth2)
 	* [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
-* [cancancan](https://github.com/CanCanCommunity/cancancan) - Continuation of CanCan, the authorization Gem for Ruby on Rails.CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the Ability class) and not duplicated across controllers, views, and database queries.
-* [rolify](https://github.com/RolifyCommunity/rolify) - Role management library with resource scoping.
 
 
 ## Active Record
@@ -70,11 +76,14 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Parity](https://github.com/thoughtbot/parity) - Shell commands for development, staging, and production parity for Heroku apps.
 
 ## API
+* [Grape](https://github.com/ruby-grape/grape) - Microframework to create REST-ful APIs in Ruby.
 * [ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers) - Serializer brings convention over configuration to your JSON generation.
 * [Jbuilder](https://github.com/rails/jbuilder) - Jbuilder gives you a simple DSL for declaring JSON structures that beats massaging giant hash structures. This is particularly helpful when the generation process is fraught with conditionals and loops.
 * [rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 * [has_scope](https://github.com/plataformatec/has_scope) - Map incoming controller parameters to named scopes in your resources.
 * Documentation
+	* [Grape Swagger](https://github.com/ruby-grape/grape-swagger) - Autogenerate documentation on Grape API.
+	* [Grape Swagger UI](https://github.com/swagger-api/swagger-ui) - Display documentation that is generated using Grape Swagger.
 	* [apiary](https://apiary.io/) - Work together to quickly design, prototype, document and test APIs.
 	* [apiblueprint](https://apiblueprint.org) - API Documentation with powerful tooling.
 
@@ -98,18 +107,21 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
  
 ## Scheduled/Recurrence Jobs
 * [Whenever](https://github.com/javan/whenever) - Whenever is a Ruby gem that provides a clear syntax for writing and deploying cron jobs.
+* [Resque](https://github.com/resque/resque) - Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.
+* [Delayed Job](https://github.com/collectiveidea/delayed_job) - Database based asynchronous priority queue system.
 * [Sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby.
 	* [sidetiq](https://github.com/tobiassvn/sidetiq) - Recurring jobs for sidekiq.
 * [Sucker Punch](https://github.com/brandonhilkert/sucker_punch) - Sucker punch is a single-process Ruby asynchronous processing library.
 
 ## View Helper
+* [formtastic](https://github.com/justinfrench/formtastic) - Formtastic is a Rails FormBuilder DSL (with some other goodies) to make it far easier to create beautiful, semantically rich, syntactically awesome, readily stylable and wonderfully accessible HTML forms in your Rails applications
 * [Simple Form](https://github.com/plataformatec/simple_form) - Simple form aims to be as flexible as possible while helping you with powerful components to create your forms. The basic goal of Simple Form is to not touch your way of defining the layout, letting you find the better design for your eyes.
 * [Nested Form](https://github.com/ryanb/nested_form) - This is a Rails gem for conveniently manage multiple nested models in a single form. It does so in an unobtrusive way through jQuery or Prototype. It can also be integrated with Simple Form.
 * [meta-tags](https://github.com/kpumuk/meta-tags) - Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
 * [active_link_to](https://github.com/comfy/active_link_to) - active_link_to adds css 'active' class to your links.
-* [formtastic](https://github.com/justinfrench/formtastic) - Formtastic is a Rails FormBuilder DSL (with some other goodies) to make it far easier to create beautiful, semantically rich, syntactically awesome, readily stylable and wonderfully accessible HTML forms in your Rails applications.
 
 ## Environment Variables
+* [Config](https://github.com/railsconfig/config) - Multi-environment YAML style configurations that helps easily manage environment specific settings in an easy and usable manner.
 * [Figaro](https://github.com/laserlemon/figaro) - Figaro is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.
 * [dotenv](https://github.com/bkeepers/dotenv) - Dotenv is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.
 * [opsworks-dotenv](https://github.com/mikamai/opsworks-dotenv) - Opsworks-dotenv let you configure the environment for you Rails application using OpsWorks, Chef and Dotenv.
@@ -155,13 +167,19 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers) - Shoulda-matchers provides serveral matchers for testing common Rails functionality.
 * [ResponseCodeMatchers](https://github.com/r7kamura/response_code_matchers) - ResponseCodeMatchers provides rspec matchers to match http response code.
 * [SimpleCov](https://github.com/colszowka/simplecov) - SimpleCov is a code coverage analysis tool for Ruby.
+* [Timecop](https://github.com/travisjeffery/timecop) - A gem providing "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code.
 
 ## Production
-* [Rollbar](https://github.com/rollbar/rollbar-gem) - Exception tracking and logging from Ruby to Rollbar.
+* [Capistrano](https://github.com/capistrano/capistrano) - Remote multi-server automation tool.
 * [Slowpoke](https://github.com/ankane/slowpoke) - Rack::Timeout is great. Slowpoke makes it better.
 * [Rack Attack](https://github.com/kickstarter/rack-attack) - Rack middleware to blocking & throttling.
 * [Responders](https://github.com/plataformatec/responders) - A set of Rails responders to dry up your application.
 * [production_rails](https://github.com/ankane/production_rails) - Best practices for running Rails in production.
+
+## Error Logging
+* [Rollbar](https://github.com/rollbar/rollbar-gem) - Exception tracking and logging from Ruby to Rollbar.
+* [Airbrake](https://github.com/airbrake/airbrake) - Notifier gem for integrating apps with Airbrake
+* [Errbit](https://github.com/errbit/errbit) - Open source notifier gem compliant with Airbrake.
 
 ## Contribute
 
