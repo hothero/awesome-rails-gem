@@ -8,6 +8,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [Active Record](#active-record)
   * [Plugins](#plugins)
   * [API](#api)
+  * [Email](#email)
   * [File Uploading](#file-uploading)
   * [Searching](#searching)
   * [Scheduled/Recurrence Jobs](#scheduledrecurrence-jobs)
@@ -31,11 +32,10 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [rolify](https://github.com/RolifyCommunity/rolify) - Role management library with resource scoping.
 
 ### Omniauth
-* OmniAuth
-	* [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)
-	* [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
-	* [omniauth-weibo-oauth2](https://github.com/beenhero/omniauth-weibo-oauth2)
-	* [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
+* [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)
+* [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
+* [omniauth-weibo-oauth2](https://github.com/beenhero/omniauth-weibo-oauth2)
+* [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
 
 
 ## Active Record
@@ -47,23 +47,23 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [PaperTrail](https://github.com/airblade/paper_trail) - PaperTrail lets you track changes to your models' data. It's good for auditing or versioning.
 * [paranoia](https://github.com/radar/paranoia) - ActiveRecord plugin allowing you to hide and restore records without actually deleting them.
 * [Validates](https://github.com/kaize/validates) - Validates provides collection of useful custom validators for Rails applications, including:
-	* EmailValidator
-	* UrlValidator
-	* SlugValidator
-	* MoneyValidator
-	* IpValidator
-	* AssociationLengthValidator
-	* AbsolutePathValidator
-	* UriComponentValidator
-	* ColorValidator
-	* EanValidator (EAN-8 & EAN-13)
+  * EmailValidator
+  * UrlValidator
+  * SlugValidator
+  * MoneyValidator
+  * IpValidator
+  * AssociationLengthValidator
+  * AbsolutePathValidator
+  * UriComponentValidator
+  * ColorValidator
+  * EanValidator (EAN-8 & EAN-13)
 * [globalize](https://github.com/globalize/globalize) - Rails I18n de-facto standard library for ActiveRecord model/data translation.
 * [deep_cloneable](https://github.com/moiristo/deep_cloneable) - This gem gives every ActiveRecord::Base object the possibility to do a deep clone that includes user specified associations.
 * [social_shares](https://github.com/Timrael/social_shares) - Check how many times url was shared in social networks.
 * [public_activity](https://github.com/chaps-io/public_activity) - Easy activity tracking for models - similar to Github's Public Activity.
 * Tagging
-	* [ActsAsTaggableOn](https://github.com/mbleigh/acts-as-taggable-on) - A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts.
-	* [closure_tree](https://github.com/mceachen/closure_tree) - Easily and efficiently make your ActiveRecord models support hierarchies.
+  * [ActsAsTaggableOn](https://github.com/mbleigh/acts-as-taggable-on) - A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts.
+  * [closure_tree](https://github.com/mceachen/closure_tree) - Easily and efficiently make your ActiveRecord models support hierarchies.
 
 ## Plugins
 * [Spreadsheet](https://github.com/zdavatz/spreadsheet) - Library is designed to read and write Spreadsheet Documents.
@@ -87,6 +87,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 	* [apiary](https://apiary.io/) - Work together to quickly design, prototype, document and test APIs.
 	* [apiblueprint](https://apiblueprint.org) - API Documentation with powerful tooling.
 
+## Email
+* [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
+
 ## File Uploading
 * [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) - Carrierwave is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.
   * [carrierwave_backgrounder](https://github.com/lardawge/carrierwave_backgrounder) - Offload CarrierWave's image processing and storage to a background process using Delayed Job, Resque, Sidekiq, Qu, Queue Classic or Girl Friday.
@@ -104,13 +107,13 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [pg_search](https://github.com/Casecommons/pg_search) - pg_search builds ActiveRecord named scopes that take advantage of PostgreSQL's full text search
 * [sunsport](https://github.com/sunspot/sunspot) - Sunspot is a Ruby library for expressive, powerful interaction with the Solr search engine. Sunspot is built on top of the RSolr library, which provides a low-level interface for Solr interaction; Sunspot provides a simple, intuitive, expressive DSL backed by powerful features for indexing objects and searching for them.
 * [searchkick](https://github.com/ankane/searchkick) - Intelligent search made easy with Rails and Elasticsearch.
- 
+
 ## Scheduled/Recurrence Jobs
 * [Whenever](https://github.com/javan/whenever) - Whenever is a Ruby gem that provides a clear syntax for writing and deploying cron jobs.
 * [Resque](https://github.com/resque/resque) - Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.
 * [Delayed Job](https://github.com/collectiveidea/delayed_job) - Database based asynchronous priority queue system.
 * [Sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby.
-	* [sidetiq](https://github.com/tobiassvn/sidetiq) - Recurring jobs for sidekiq.
+  * [sidetiq](https://github.com/tobiassvn/sidetiq) - Recurring jobs for sidekiq.
 * [Sucker Punch](https://github.com/brandonhilkert/sucker_punch) - Sucker punch is a single-process Ruby asynchronous processing library.
 
 ## View Helper
@@ -128,7 +131,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## Admin Panel
 * [ActiveAdmin](http://activeadmin.info) - ActiveAdmin is a administration framework for Ruby on Rails applications.
-	- [active_skin](https://github.com/rstgroup/active_skin): Flat skin for active admin.
+  - [active_skin](https://github.com/rstgroup/active_skin): Flat skin for active admin.
 * [RailsAdmin](https://github.com/sferik/rails_admin) - RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data.
 
 ## Logging
@@ -138,7 +141,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## Debug
 * [byebug](https://github.com/deivid-rodriguez/byebug) - Byebug is a simple to use, feature rich debugger for Ruby 2. It uses the new TracePoint API for execution control and the new Debug Inspector API for call stack navigation, so it doesn't depend on internal core sources.
-	* [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) - Pry navigation commands via byebug.
+  * [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) - Pry navigation commands via byebug.
 * [pry-rails](https://github.com/rweng/pry-rails) - Avoid repeating yourself, use pry-rails instead of copying the initializer to every rails project. This is a small gem which causes rails console to open pry. It therefore depends on pry.
 * [awesome_print](https://github.com/michaeldv/awesome_print) - Awesome Print is a Ruby library that pretty prints Ruby objects in full color exposing their internal structure with proper indentation.
 * [web-console](https://github.com/rails/web-console) - Web Console is a debugging tool for your Ruby on Rails applications.
@@ -148,7 +151,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [terminal-notifier](https://github.com/julienXX/terminal-notifier) - terminal-notifier is a command-line tool to send Mac OS X User Notifications, which are available in Mac OS X 10.8 and higher.
 * [letter_opener](https://github.com/ryanb/letter_opener) - Preview email in the default browser instead of sending it. This means you do not need to set up email delivery in your development environment, and you no longer need to worry about accidentally sending a test email to someone else's address.
 * [Better Errors](https://github.com/charliesome/better_errors) - Better errors replaces the standard Rails error page with a much better and more useful error page.
-	* If you would like to use Better Errors' advanced features (REPL, local/instance variable inspection, pretty stack frame names), you need to add the [binding_ _of__caller](https://github.com/banister/binding_of_caller).
+  * If you would like to use Better Errors' advanced features (REPL, local/instance variable inspection, pretty stack frame names), you need to add the [binding_ _of__caller](https://github.com/banister/binding_of_caller).
 * [RailsPanel](https://github.com/dejan/rails_panel) - RailsPanel is a Chrome extension for Rails development that will end your tailing of development.log.
 
 ## Coding Style
