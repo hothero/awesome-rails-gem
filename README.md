@@ -64,6 +64,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * Tagging
   * [ActsAsTaggableOn](https://github.com/mbleigh/acts-as-taggable-on) - A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts.
   * [closure_tree](https://github.com/mceachen/closure_tree) - Easily and efficiently make your ActiveRecord models support hierarchies.
+* [money](http://rubymoney.github.io/money/) -- makes dealing with money and currency conversions in applications a breeze
 
 ## Plugins
 * [Spreadsheet](https://github.com/zdavatz/spreadsheet) - Library is designed to read and write Spreadsheet Documents.
