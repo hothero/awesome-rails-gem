@@ -82,6 +82,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 * [has_scope](https://github.com/plataformatec/has_scope) - Map incoming controller parameters to named scopes in your resources.
 * [toll](https://github.com/IcaliaLabs/toll) - Super simple yet powerful authentication for Rails APIs
+* [pager-api](https://github.com/IcaliaLabs/pager-api) - Easy API pagination for Rails APIs
 * Documentation
 	* [Grape Swagger](https://github.com/ruby-grape/grape-swagger) - Autogenerate documentation on Grape API.
 	* [Grape Swagger UI](https://github.com/swagger-api/swagger-ui) - Display documentation that is generated using Grape Swagger.
