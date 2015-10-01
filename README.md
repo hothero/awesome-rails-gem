@@ -21,6 +21,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [Testing](#testing)
   * [Production](#production)
   * [Error Logging](#error-logging)
+  * [Application Generator](#application-generator)
 
 ## User
 ### Authentication
@@ -184,6 +185,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Rollbar](https://github.com/rollbar/rollbar-gem) - Exception tracking and logging from Ruby to Rollbar.
 * [Airbrake](https://github.com/airbrake/airbrake) - Notifier gem for integrating apps with Airbrake
 * [Errbit](https://github.com/errbit/errbit) - Open source notifier gem compliant with Airbrake.
+
+## Application Generator
+* [Suspenders](http://github.com/thoughtbot/suspenders) - A baseline application setup, with reasonable default plugins that the majority (if not all) of Thoughtbot's applications used, as well as best-practice configuration options.
 
 ## Contribute
 
