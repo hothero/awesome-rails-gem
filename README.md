@@ -25,6 +25,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## User
 ### Authentication
 * [Devise](https://github.com/plataformatec/devise/) - Devise is a flexible authentication solution for Rails based on Warden.
+* [Clearance](https://github.com/thoughtbot/clearance) - Rails authentication with email & password.
 
 ### Authorization
 * [Pundit](https://github.com/elabs/pundit) - Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.
