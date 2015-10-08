@@ -189,6 +189,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Airbrake](https://github.com/airbrake/airbrake) - Notifier gem for integrating apps with Airbrake
 * [Errbit](https://github.com/errbit/errbit) - Open source notifier gem compliant with Airbrake.
 
+## Asset Pipeline
+* [Alaska](https://github.com/mavenlink/alaska) - ExecJS runtime with persistent connection to nodejs, speeds up your coffeescript compilation process during development and deployment.
+
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
