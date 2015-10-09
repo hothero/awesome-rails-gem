@@ -179,6 +179,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [SimpleCov](https://github.com/colszowka/simplecov) - SimpleCov is a code coverage analysis tool for Ruby.
 * [Timecop](https://github.com/travisjeffery/timecop) - A gem providing "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code.
 
+### Security
+* [brakeman](https://github.com/presidentbeef/brakeman) - Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
+
 ## Production
 * [Capistrano](https://github.com/capistrano/capistrano) - Remote multi-server automation tool.
 * [Slowpoke](https://github.com/ankane/slowpoke) - Rack::Timeout is great. Slowpoke makes it better.
