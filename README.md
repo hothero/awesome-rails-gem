@@ -73,6 +73,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Chartkick](https://github.com/ankane/chartkick) - Chartkick helps your to create beautiful Javascript charts with one line of Ruby.
 * [kaminari](https://github.com/amatsuda/kaminari) - A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4.
 * [CKEditor](https://github.com/galetahub/ckeditor) - CKEditor is a WYSIWYG text editor designed to simplify web content creation. It brings common word processing features directly to your web pages. Enhance your website experience with our community maintained editor. [ckeditor.com](http://ckeditor.com)
+* [wysiwyg-rails](https://github.com/froala/wysiwyg-rails) - Include awesome WYSIWYG fields.
 * [HTML::Pipeline](https://github.com/jch/html-pipeline) - GitHub HTML processing filters and utilities. This module includes a small framework for defining DOM based content filters and applying them to user provided content.
 * [Slack Notifier](https://github.com/stevenosloan/slack-notifier) is a simple wrapper to send notifications to [Slack](https://slack.com/) webhooks.
 * [Rails ERD](https://github.com/voormedia/rails-erd) - Generate Entity-Relationship Diagrams for Rails applications.
@@ -125,6 +126,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Nested Form](https://github.com/ryanb/nested_form) - This is a Rails gem for conveniently manage multiple nested models in a single form. It does so in an unobtrusive way through jQuery or Prototype. It can also be integrated with Simple Form.
 * [meta-tags](https://github.com/kpumuk/meta-tags) - Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
 * [active_link_to](https://github.com/comfy/active_link_to) - active_link_to adds css 'active' class to your links.
+* [sweetalert-rails](https://github.com/sharshenov/sweetalert-rails) - SweetAlert Rails integration (awesome warning, erros and etc modals).
 
 ## Environment Variables
 * [Config](https://github.com/railsconfig/config) - Multi-environment YAML style configurations that helps easily manage environment specific settings in an easy and usable manner.
