@@ -39,7 +39,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
 * [omniauth-weibo-oauth2](https://github.com/beenhero/omniauth-weibo-oauth2)
 * [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
-
+* [omniauth-github](https://github.com/intridea/omniauth-github)
 
 ## Active Record
 * [Enumerize](https://github.com/brainspec/enumerize) - Enumerated attributes with I18n and ActiveRecord/Mongoid support. It can be integrated with Simple Form.
