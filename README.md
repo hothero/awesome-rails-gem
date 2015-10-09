@@ -23,8 +23,10 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [Error Logging](#error-logging)
 
 ## User
+
 ### Authentication
 * [Devise](https://github.com/plataformatec/devise/) - Devise is a flexible authentication solution for Rails based on Warden.
+* [Knock](https://github.com/nsarno/knock) - Seamless JWT authentication for Rails API.
 * [Clearance](https://github.com/thoughtbot/clearance) - Rails authentication with email & password.
 
 ### Authorization
