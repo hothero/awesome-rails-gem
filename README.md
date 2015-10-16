@@ -119,6 +119,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Delayed Job](https://github.com/collectiveidea/delayed_job) - Database based asynchronous priority queue system.
 * [Sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby.
   * [sidetiq](https://github.com/tobiassvn/sidetiq) - Recurring jobs for sidekiq.
+  * [slackiq](https://github.com/MightySignal/slackiq) - Slackiq = Slack + Sidekiq
 * [Sucker Punch](https://github.com/brandonhilkert/sucker_punch) - Sucker punch is a single-process Ruby asynchronous processing library.
 
 ## View Helper
