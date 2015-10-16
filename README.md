@@ -162,6 +162,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## Coding Style
 * [RuboCop](https://github.com/bbatsov/rubocop) - Rubocop is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
 * [Rails Best Practice](https://github.com/railsbp/rails_best_practices) - Rails best practice is a code metric tool to check the quality of rails codes.
+* [Metric Fu]( https://github.com/metricfu/metric_fu) - A fist full of code metrics
 
 ## Testing
 * [rspec-rails](https://github.com/rspec/rspec-rails) - Rspec-rails is a testing framework for Rails 3.x and 4.x.
