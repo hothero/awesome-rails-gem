@@ -186,6 +186,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ### Security
 * [brakeman](https://github.com/presidentbeef/brakeman) - Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
+* [bundle-audit](https://github.com/rubysec/bundler-audit) - bundler-audit is a patch-level verification tool for Bundler which checks for vulnerable versions of gems and insecure gem sources.
 
 ## Production
 * [Capistrano](https://github.com/capistrano/capistrano) - Remote multi-server automation tool.
