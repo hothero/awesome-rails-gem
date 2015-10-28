@@ -43,6 +43,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## Active Record
 * [amoeba](https://github.com/amoeba-rb/amoeba) - Easy cloning of active_record objects and its associations
+* [deep_cloneable](https://github.com/moiristo/deep_cloneable) - Another gem that handles cloning of objects and its associations
 * [Enumerize](https://github.com/brainspec/enumerize) - Enumerated attributes with I18n and ActiveRecord/Mongoid support. It can be integrated with Simple Form.
 * [counter_culture](https://github.com/magnusvk/counter_culture) - Turbo-charged counter caches for your Rails app. Huge improvements over the Rails standard counter caches.
 * [custom_counter_cache](https://github.com/cedric/custom_counter_cache) - A simple approach to creating a custom counter cache that can be used across multiple models.
