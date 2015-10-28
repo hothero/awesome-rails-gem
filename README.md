@@ -199,6 +199,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Rollbar](https://github.com/rollbar/rollbar-gem) - Exception tracking and logging from Ruby to Rollbar.
 * [Airbrake](https://github.com/airbrake/airbrake) - Notifier gem for integrating apps with Airbrake
 * [Errbit](https://github.com/errbit/errbit) - Open source notifier gem compliant with Airbrake.
+* [Logstasher](https://github.com/shadabahmed/logstasher) - Generates logstash compatible logs in json format.
 
 ## Asset Pipeline
 * [Alaska](https://github.com/mavenlink/alaska) - ExecJS runtime with persistent connection to nodejs, speeds up your coffeescript compilation process during development and deployment.
