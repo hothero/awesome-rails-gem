@@ -106,7 +106,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## Searching
 * [ransack](https://github.com/activerecord-hackery/ransack) - Ransack enables the creation of both simple and advanced search forms for your Ruby on Rails application.
-* [elasticsearch-rails](https://github.com/elasticsearch/elasticsearch-rails) - Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.
+* [elasticsearch-rails](https://github.com/elastic/elasticsearch-rails) - Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.
 * [Chewy](https://github.com/toptal/chewy) - High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client.
 * [Chewy_Kiqqer](https://github.com/averell23/chewy_kiqqer) - This is an alternative update/callback mechanism for Chewy. It queues the updates as Sidekiq jobs.
 * [pg_search](https://github.com/Casecommons/pg_search) - pg_search builds ActiveRecord named scopes that take advantage of PostgreSQL's full text search
