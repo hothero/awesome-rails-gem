@@ -49,7 +49,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [FriendlyId](https://github.com/norman/friendly_id) - FriendlyId is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
 * [AASM](https://github.com/aasm/aasm) - State machines for Ruby classes (plain Ruby, Rails Active Record, Mongoid).
 * [PaperTrail](https://github.com/airblade/paper_trail) - PaperTrail lets you track changes to your models' data. It's good for auditing or versioning.
-* [paranoia](https://github.com/radar/paranoia) - ActiveRecord plugin allowing you to hide and restore records without actually deleting them.
+* [paranoia](https://github.com/rubysherpas/paranoia) - ActiveRecord plugin allowing you to hide and restore records without actually deleting them.
 * [Validates](https://github.com/kaize/validates) - Validates provides collection of useful custom validators for Rails applications, including:
   * EmailValidator
   * UrlValidator
@@ -108,7 +108,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## Searching
 * [ransack](https://github.com/activerecord-hackery/ransack) - Ransack enables the creation of both simple and advanced search forms for your Ruby on Rails application.
-* [elasticsearch-rails](https://github.com/elasticsearch/elasticsearch-rails) - Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.
+* [elasticsearch-rails](https://github.com/elastic/elasticsearch-rails) - Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.
 * [Chewy](https://github.com/toptal/chewy) - High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client.
 * [Chewy_Kiqqer](https://github.com/averell23/chewy_kiqqer) - This is an alternative update/callback mechanism for Chewy. It queues the updates as Sidekiq jobs.
 * [pg_search](https://github.com/Casecommons/pg_search) - pg_search builds ActiveRecord named scopes that take advantage of PostgreSQL's full text search
