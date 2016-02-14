@@ -80,7 +80,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Slack Notifier](https://github.com/stevenosloan/slack-notifier) is a simple wrapper to send notifications to [Slack](https://slack.com/) webhooks.
 * [Rails ERD](https://github.com/voormedia/rails-erd) - Generate Entity-Relationship Diagrams for Rails applications.
 * [Parity](https://github.com/thoughtbot/parity) - Shell commands for development, staging, and production parity for Heroku apps.
-* [Airbrussh](https://github.com/mattbrictson/airbrussh) Airbrussh pretties up your SSHKit and Capistrano output
+* [Airbrussh](https://github.com/mattbrictson/airbrussh) - Airbrussh pretties up your SSHKit and Capistrano output
 
 ## API
 * [Grape](https://github.com/ruby-grape/grape) - Microframework to create REST-ful APIs in Ruby.
@@ -134,6 +134,8 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [meta-tags](https://github.com/kpumuk/meta-tags) - Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
 * [active_link_to](https://github.com/comfy/active_link_to) - active_link_to adds css 'active' class to your links.
 * [cells](https://github.com/apotonick/cells) - Cells allow you to encapsulate parts of your UI into components into view models. View models, or cells, are simple ruby classes that can render templates.
+* [i18n Country Code Select](https://github.com/onomojo/i18n_country_select) - I18n Country Code Select Form Helper for Rails 3 & 4.
+* [Subdivision Select](https://github.com/cllns/subdivision_select) - A Rails plugin to populate a state/province select box from country_select.
 
 ## Environment Variables
 * [Config](https://github.com/railsconfig/config) - Multi-environment YAML style configurations that helps easily manage environment specific settings in an easy and usable manner.
