@@ -31,6 +31,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Devise token auth](https://github.com/lynndylanhurley/devise_token_auth) - Token based authentication for Rails JSON APIs.
 
 ### Authorization
+* [Action Access](https://github.com/matiasgagliano/action_access) - Modular, lightweight and easy access control system for Ruby on Rails. Secure applications and handle permissions in a breeze.
 * [Pundit](https://github.com/elabs/pundit) - Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.
 * [cancancan](https://github.com/CanCanCommunity/cancancan) - Continuation of CanCan, the authorization Gem for Ruby on Rails.CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the Ability class) and not duplicated across controllers, views, and database queries.
 * [rolify](https://github.com/RolifyCommunity/rolify) - Role management library with resource scoping.
