@@ -194,6 +194,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Timecop](https://github.com/travisjeffery/timecop) - A gem providing "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code.
 * [VCR](https://github.com/vcr/vcr) - Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.
 
+## Developer fun
+* [table_flipper](https://github.com/iridakos/table_flipper) - (╯°□°）╯︵ ┻━┻ on Ruby exceptions
+
 ### Security
 * [brakeman](https://github.com/presidentbeef/brakeman) - Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
 * [bundle-audit](https://github.com/rubysec/bundler-audit) - bundler-audit is a patch-level verification tool for Bundler which checks for vulnerable versions of gems and insecure gem sources.
