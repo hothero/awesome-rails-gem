@@ -177,6 +177,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Rails Best Practice](https://github.com/railsbp/rails_best_practices) - Rails best practice is a code metric tool to check the quality of rails codes.
 * [Metric Fu]( https://github.com/metricfu/metric_fu) - A fist full of code metrics
 
+## Developer fun
+* [table_flipper](https://github.com/iridakos/table_flipper) - (╯°□°）╯︵ ┻━┻ on Ruby exceptions
+
 ## Testing
 * [rspec-rails](https://github.com/rspec/rspec-rails) - Rspec-rails is a testing framework for Rails 3.x and 4.x.
 * [Capybara](https://github.com/jnicklas/capybara) - Capybara helps you test web applications by simulating how a real user would interact with your app. And drivers:
@@ -193,9 +196,6 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [SimpleCov](https://github.com/colszowka/simplecov) - SimpleCov is a code coverage analysis tool for Ruby.
 * [Timecop](https://github.com/travisjeffery/timecop) - A gem providing "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code.
 * [VCR](https://github.com/vcr/vcr) - Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.
-
-## Developer fun
-* [table_flipper](https://github.com/iridakos/table_flipper) - (╯°□°）╯︵ ┻━┻ on Ruby exceptions
 
 ### Security
 * [brakeman](https://github.com/presidentbeef/brakeman) - Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
