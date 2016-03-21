@@ -43,6 +43,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [omniauth-weibo-oauth2](https://github.com/beenhero/omniauth-weibo-oauth2)
 * [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
 * [omniauth-github](https://github.com/intridea/omniauth-github)
+* [omniauth-linkedin-oauth2](https://github.com/decioferreira/omniauth-linkedin-oauth2)
 
 ## Active Record
 * [Enumerize](https://github.com/brainspec/enumerize) - Enumerated attributes with I18n and ActiveRecord/Mongoid support. It can be integrated with Simple Form.
@@ -176,6 +177,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [RuboCop](https://github.com/bbatsov/rubocop) - Rubocop is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
 * [Rails Best Practice](https://github.com/railsbp/rails_best_practices) - Rails best practice is a code metric tool to check the quality of rails codes.
 * [Metric Fu]( https://github.com/metricfu/metric_fu) - A fist full of code metrics
+* [Pronto](https://github.com/mmozuras/pronto) - Quick automated code review of your changes
 
 ## Testing
 * [rspec-rails](https://github.com/rspec/rspec-rails) - Rspec-rails is a testing framework for Rails 3.x and 4.x.
