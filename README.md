@@ -209,6 +209,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Rack Attack](https://github.com/kickstarter/rack-attack) - Rack middleware to blocking & throttling.
 * [Responders](https://github.com/plataformatec/responders) - A set of Rails responders to dry up your application.
 * [production_rails](https://github.com/ankane/production_rails) - Best practices for running Rails in production.
+* [Mina](https://github.com/mina-deploy/mina) - fast deployer and server automation tool.
 
 ## Error Logging
 * [Rollbar](https://github.com/rollbar/rollbar-gem) - Exception tracking and logging from Ruby to Rollbar.
