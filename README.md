@@ -123,6 +123,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## Scheduled/Recurrence Jobs
 * [Whenever](https://github.com/javan/whenever) - Whenever is a Ruby gem that provides a clear syntax for writing and deploying cron jobs.
 * [Resque](https://github.com/resque/resque) - Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.
+* [Rufus-Scheduler](https://github.com/jmettraux/rufus-scheduler) - Rufus-scheduler is a Ruby gem for scheduling pieces of code (jobs). It understands running a job AT a certain time, IN a certain time, EVERY x time or simply via a CRON statement.
 * [Delayed Job](https://github.com/collectiveidea/delayed_job) - Database based asynchronous priority queue system.
 * [Sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby.
   * [sidetiq](https://github.com/tobiassvn/sidetiq) - Recurring jobs for sidekiq.
