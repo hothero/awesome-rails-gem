@@ -110,6 +110,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [fog](https://github.com/fog/fog) - Fog is the Ruby cloud services library, top to bottom.
 * [refile](https://github.com/refile/refile) - Refile is a modern file upload library for Ruby applications. It is simple, yet powerful.
 * [Paperclip](https://github.com/thoughtbot/paperclip) - Easy file attachment management for ActiveRecord.
+* [Dragonfly](http://markevans.github.io/dragonfly) - Dragonfly is for on-the-fly file processing - suitable for images or other attachments
 
 ## Searching
 * [ransack](https://github.com/activerecord-hackery/ransack) - Ransack enables the creation of both simple and advanced search forms for your Ruby on Rails application.
