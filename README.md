@@ -29,6 +29,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Knock](https://github.com/nsarno/knock) - Seamless JWT authentication for Rails API.
 * [Clearance](https://github.com/thoughtbot/clearance) - Rails authentication with email & password.
 * [Devise token auth](https://github.com/lynndylanhurley/devise_token_auth) - Token based authentication for Rails JSON APIs.
+* [Sorcery](https://github.com/Sorcery/sorcery) - Magical Authentication for Rails. Supports ActiveRecord, DataMapper, Mongoid and MongoMapper.
 
 ### Authorization
 * [Pundit](https://github.com/elabs/pundit) - Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.
