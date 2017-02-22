@@ -35,6 +35,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [cancancan](https://github.com/CanCanCommunity/cancancan) - Continuation of CanCan, the authorization Gem for Ruby on Rails.CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the Ability class) and not duplicated across controllers, views, and database queries.
 * [rolify](https://github.com/RolifyCommunity/rolify) - Role management library with resource scoping.
 * [acl9](https://github.com/be9/acl9/) - Acl9 is a role-based authorization system that provides a concise DSL for securing your Rails application.
+* [fortress](https://github.com/YourCursus/fortress) - This gem adds the simple but powerful concept "close everything, open explicitly" to your Rails application
 
 
 ### Omniauth
