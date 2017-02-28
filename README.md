@@ -161,6 +161,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Ahoy](https://github.com/ankane/ahoy) - Ahoy provides a solid foundation to track visits and events in Ruby, JavaScript, and native apps.
 * [Lograge](https://github.com/roidrage/lograge) - An attempt to tame Rails' default policy to log everything.
 
+## Localization
+* [Translation Exchange](https://github.com/translationexchange/tml-rails) - Tml-rail Client SDK provides tools for translating Rails applications into any language withoout dealing with resource files, support full language rules engine and works with existing i18n implementation.
+
 ## Debug
 * [byebug](https://github.com/deivid-rodriguez/byebug) - Byebug is a simple to use, feature rich debugger for Ruby 2. It uses the new TracePoint API for execution control and the new Debug Inspector API for call stack navigation, so it doesn't depend on internal core sources.
   * [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) - Pry navigation commands via byebug.
