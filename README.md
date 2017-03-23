@@ -21,6 +21,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [Testing](#testing)
   * [Production](#production)
   * [Error Logging](#error-logging)
+  * [Monitoring](#monitoring)
 
 ## User
 
@@ -219,6 +220,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## Asset Pipeline
 * [Alaska](https://github.com/mavenlink/alaska) - ExecJS runtime with persistent connection to nodejs, speeds up your coffeescript compilation process during development and deployment.
+
+## Monitoring
+* [Instrumental](https://github.com/Instrumental/instrumental_agent-ruby) - Easily add custom application monitoring without worrying about blocking or metric volume. 
 
 ## Contribute
 
