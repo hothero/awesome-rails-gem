@@ -76,6 +76,8 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [ActsAsTaggableOn](https://github.com/mbleigh/acts-as-taggable-on) - A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts.
   * [closure_tree](https://github.com/mceachen/closure_tree) - Easily and efficiently make your ActiveRecord models support hierarchies.
 * [ActionStore](https://github.com/rails-engine/action-store) - Store different kind of actions (Like, Follow, Star, Block ...) in one table via ActiveRecord Polymorphic Association.
+* [Bullet](https://rubygems.org/gems/bullet) - The Bullet gem is designed to help you increase your application's performance by reducing the number of queries it makes, help to kill N+1 queries and unused eager loading.
+* [Rails_db](https://github.com/igorkasyanchuk/rails_db) - Rails Database Viewer and SQL Query Runner https://youtu.be/TYsRxXRFp1g Quick way to inspect your Rails database, see content of tables, export them to CSV, EXPLAIN SQL and run SQL queries.
 
 ## Plugins
 * [Spreadsheet](https://github.com/zdavatz/spreadsheet) - Library is designed to read and write Spreadsheet Documents.
