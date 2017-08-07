@@ -145,6 +145,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [i18n Country Code Select](https://github.com/onomojo/i18n_country_select) - I18n Country Code Select Form Helper for Rails 3 & 4.
 * [Subdivision Select](https://github.com/cllns/subdivision_select) - A Rails plugin to populate a state/province select box from country_select.
 * [cocoon](https://github.com/nathanvda/cocoon) - Dynamic nested forms using jQuery made easy
+* [Hyperloop](http://ruby-hyperloop.io/) - Hyperloop is an Isomorphic Ruby framework built on Rails
 
 ## Environment Variables
 * [Config](https://github.com/railsconfig/config) - Multi-environment YAML style configurations that helps easily manage environment specific settings in an easy and usable manner.
