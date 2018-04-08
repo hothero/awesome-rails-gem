@@ -70,6 +70,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [globalize](https://github.com/globalize/globalize) - Rails I18n de-facto standard library for ActiveRecord model/data translation.
 * [deep_cloneable](https://github.com/moiristo/deep_cloneable) - This gem gives every ActiveRecord::Base object the possibility to do a deep clone that includes user specified associations.
 * [social_shares](https://github.com/Timrael/social_shares) - Check how many times url was shared in social networks.
+* [social-share-button](https://github.com/huacnlee/social-share-button) - This is a gem to helper you quick create a share feature in you Rails apps.
 * [public_activity](https://github.com/chaps-io/public_activity) - Easy activity tracking for models - similar to Github's Public Activity.
 * [goldiloader](https://github.com/salsify/goldiloader) - Automatic ActiveRecord eager loading to reduce the number of database queries run by your application.
 * Tagging
