@@ -69,6 +69,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * EanValidator (EAN-8 & EAN-13)
 * [globalize](https://github.com/globalize/globalize) - Rails I18n de-facto standard library for ActiveRecord model/data translation.
 * [deep_cloneable](https://github.com/moiristo/deep_cloneable) - This gem gives every ActiveRecord::Base object the possibility to do a deep clone that includes user specified associations.
+* [deep_pluck](https://github.com/khiav223577/deep_pluck) - Allow you to pluck deeply into nested associations without loading a bunch of records.
 * [social_shares](https://github.com/Timrael/social_shares) - Check how many times url was shared in social networks.
 * [public_activity](https://github.com/chaps-io/public_activity) - Easy activity tracking for models - similar to Github's Public Activity.
 * [goldiloader](https://github.com/salsify/goldiloader) - Automatic ActiveRecord eager loading to reduce the number of database queries run by your application.
