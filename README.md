@@ -87,6 +87,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Rails ERD](https://github.com/voormedia/rails-erd) - Generate Entity-Relationship Diagrams for Rails applications.
 * [Parity](https://github.com/thoughtbot/parity) - Shell commands for development, staging, and production parity for Heroku apps.
 * [Airbrussh](https://github.com/mattbrictson/airbrussh) - Airbrussh pretties up your SSHKit and Capistrano output
+* [Spree-Video](https://github.com/chashmeetsingh/spree_video) - Helps add a product's video description while using Spree.
 
 ## API
 * [Grape](https://github.com/ruby-grape/grape) - Microframework to create REST-ful APIs in Ruby.
