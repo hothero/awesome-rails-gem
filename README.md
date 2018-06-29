@@ -186,6 +186,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Metric Fu]( https://github.com/metricfu/metric_fu) - A fist full of code metrics
 * [Pronto](https://github.com/mmozuras/pronto) - Quick automated code review of your changes
 
+## Live Chat
+ * [tawk-rails](https://github.com/luizpicolo/tawk-rails) - Rails simple helper for [Tawk.to](https://www.tawk.to/) live chat script 
+
 ## Testing
 * [rspec-rails](https://github.com/rspec/rspec-rails) - Rspec-rails is a testing framework for Rails 3.x and 4.x.
 * [Capybara](https://github.com/jnicklas/capybara) - Capybara helps you test web applications by simulating how a real user would interact with your app. And drivers:
