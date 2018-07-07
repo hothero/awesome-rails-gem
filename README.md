@@ -158,6 +158,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [RailsAdmin](https://github.com/sferik/rails_admin) - RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data.
 * [Typus](https://github.com/typus/typus) - Typus is a control panel for Ruby on Rails applications to allow trusted users edit structured content.
 * [administrate](https://github.com/thoughtbot/administrate) - A Rails engine that helps you put together a super-flexible admin dashboard.
+  * [administrate-field-active_storage](https://github.com/Dreamersoul/administrate-field-active_storage) - A wrapper for ActiveStorage attached files to work with administrate.
 * [Trestle](https://github.com/TrestleAdmin/trestle) - A modern, responsive admin framework for Ruby on Rails
 
 ## Logging
