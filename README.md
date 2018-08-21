@@ -138,6 +138,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## View Helper
 * [formtastic](https://github.com/justinfrench/formtastic) - Formtastic is a Rails FormBuilder DSL (with some other goodies) to make it far easier to create beautiful, semantically rich, syntactically awesome, readily stylable and wonderfully accessible HTML forms in your Rails applications
 * [Simple Form](https://github.com/plataformatec/simple_form) - Simple form aims to be as flexible as possible while helping you with powerful components to create your forms. The basic goal of Simple Form is to not touch your way of defining the layout, letting you find the better design for your eyes.
+* [bootstrap_form](https://github.com/bootstrap-ruby/bootstrap_form) - bootstrap_form is a Rails form builder that makes it super easy to integrate Bootstrap v4-style forms into your Rails application.
 * [Nested Form](https://github.com/ryanb/nested_form) - This is a Rails gem for conveniently manage multiple nested models in a single form. It does so in an unobtrusive way through jQuery or Prototype. It can also be integrated with Simple Form.
 * [meta-tags](https://github.com/kpumuk/meta-tags) - Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
 * [active_link_to](https://github.com/comfy/active_link_to) - active_link_to adds css 'active' class to your links.
