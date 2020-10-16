@@ -161,8 +161,6 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [administrate](https://github.com/thoughtbot/administrate) - A Rails engine that helps you put together a super-flexible admin dashboard.
 * [Trestle](https://github.com/TrestleAdmin/trestle) - A modern, responsive admin framework for Ruby on Rails
 
-
-
 ## Logging
 * [Impressionist](https://github.com/charlotte-ruby/impressionist) - Impressionist can log page impressions (technically action impressions), but it is not limited to that. You can log impressions multiple times per request. And you can also attach it to a model. The goal of this project is to provide customizable stats that are immediately accessible in your application as opposed to using Google Analytics and pulling data using their API.
 * [Ahoy](https://github.com/ankane/ahoy) - Ahoy provides a solid foundation to track visits and events in Ruby, JavaScript, and native apps.
