@@ -22,6 +22,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [Production](#production)
   * [Error Logging](#error-logging)
   * [Database](#database)
+  * [CMS](#cms)
 
 ## User
 
@@ -223,6 +224,9 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## Database
 * [rails_db](https://github.com/igorkasyanchuk/rails_db) - Rails Database Viewer and SQL Query Runner
+
+## CMS
+* [fae](https://github.com/wearefine/fae/) - A modern Rails CMS (Content Management Solution) gem
 
 ## Asset Pipeline
 * [Alaska](https://github.com/mavenlink/alaska) - ExecJS runtime with persistent connection to nodejs, speeds up your coffeescript compilation process during development and deployment.
